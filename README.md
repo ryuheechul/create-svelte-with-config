@@ -12,7 +12,7 @@ So until that feature is added to upstream, this project should be useful to cre
 ### Example With a Config With Hard-Coded Project Name
 
 ```javascript
-// let's say this is your-config-file.js in your current working directory
+// let's say this is your-config-file.mjs in your current working directory
 
 // based on https://github.com/sveltejs/kit/tree/master/packages/create-svelte#api
 export default { // always export this as default
@@ -29,13 +29,13 @@ export default { // always export this as default
 Then now you can run this
 
 ```bash
-npm create svelte-with-config your-config-file.js
+npm create svelte-with-config your-config-file.mjs
 ```
 
 
 ### Example With Overriding Name
 ```javascript
-// let's say this is another-config-file.js
+// let's say this is another-config-file.mjs
 
 export default {
   name: 'still-hard-coded-name-in-config',
@@ -51,5 +51,5 @@ export default {
 Then now you can run this to override the name
 
 ```bash
-npm create svelte-with-config another-config-file.js my-another-new-app
+npm create svelte-with-config another-config-file.mjs my-another-new-app
 ```

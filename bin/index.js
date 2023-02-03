@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 const projectRoot = path.resolve(__dirname + '/..');
 
 async function main() {
-  let configPath = path.resolve(projectRoot + '/examples/default.js');
+  let configPath = path.resolve(projectRoot + '/examples/default.mjs');
 
   const argForConfig = process.argv[2];
   if (argForConfig) {
