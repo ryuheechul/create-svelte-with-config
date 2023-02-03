@@ -1,6 +1,6 @@
 {
   "name": "create-svelte-with-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "create-svelte in a reproducible way",
   "bin": "bin/index.js",
