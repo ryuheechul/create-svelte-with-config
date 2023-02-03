@@ -1,0 +1,28 @@
+{
+  "name": "create-svelte-with-config",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "create-svelte in a reproducible way",
+  "bin": "bin/index.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"will there be test here one day?\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryuheechul/create-svelte-with-config.git"
+  },
+  "keywords": [
+    "svelte",
+    "create"
+  ],
+  "author": "Heechul Ryu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryuheechul/create-svelte-with-config/issues"
+  },
+  "homepage": "https://github.com/ryuheechul/create-svelte-with-config",
+  "dependencies": {
+    "create-svelte": "^2.3.2"
+  }
+}
